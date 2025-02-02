@@ -4,6 +4,7 @@ platform :ios, '10.0'
 
 target 'MeowSheet_Example' do
   pod 'MeowSheet', :path => '../'
+  pod 'SnapKit'
 
   target 'MeowSheet_Tests' do
     inherit! :search_paths

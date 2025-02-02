@@ -27,3 +27,22 @@ alan5899f, alan5899f@gmail.com
 ## License
 
 MeowSheet is available under the MIT license. See the LICENSE file for more info.
+
+## Example 
+
+Step1:
+-- You need inherit (PresentationDelegate) and set presentation hight px.
+
+extension ViewController: PresentationDelegate {
+    func presentationController(forPresented presented: UIViewController, presenting: UIViewController?, source: UIViewController) -> UIPresentationController? {
+        let presentationController = PresentationController(presentedViewController: presented, presenting: presenting)
+        presentationController.presentationType = .fixed(300)
+        return presentationController
+    }
+}
+
+Step2: 
+-- You should call presentMeowSheet for present viewController.
+
+let vc = ViewController2()
+presentMeowSheet(controller: vc)

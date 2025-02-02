@@ -1,0 +1,23 @@
+PODS:
+  - MeowSheet (0.1.0)
+  - SnapKit (5.6.0)
+
+DEPENDENCIES:
+  - MeowSheet (from `../`)
+  - SnapKit
+
+SPEC REPOS:
+  trunk:
+    - SnapKit
+
+EXTERNAL SOURCES:
+  MeowSheet:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MeowSheet: 6fa5ea32dcb0329f4985c6e994b7ba79fac30ce8
+  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
+
+PODFILE CHECKSUM: d38b17f2030e5e4747bad971f93173899e556624
+
+COCOAPODS: 1.15.2

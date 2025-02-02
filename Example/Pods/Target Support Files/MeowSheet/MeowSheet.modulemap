@@ -1,0 +1,6 @@
+framework module MeowSheet {
+  umbrella header "MeowSheet-umbrella.h"
+
+  export *
+  module * { export * }
+}

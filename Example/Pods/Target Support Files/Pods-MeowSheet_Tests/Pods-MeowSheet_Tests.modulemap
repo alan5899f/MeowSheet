@@ -1,0 +1,6 @@
+framework module Pods_MeowSheet_Tests {
+  umbrella header "Pods-MeowSheet_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

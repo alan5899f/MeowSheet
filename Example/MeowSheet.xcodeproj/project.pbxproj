@@ -15,6 +15,7 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		CC5BA24CA577A9FEF191B66E /* Pods_MeowSheet_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7AB2D9C1B93953590020146 /* Pods_MeowSheet_Tests.framework */; };
+		F2F721542D4664F800A5E41B /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F721532D4664ED00A5E41B /* ViewController2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,7 +30,7 @@
 
 /* Begin PBXFileReference section */
 		101783B567D685A9DA5CC281 /* Pods-MeowSheet_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeowSheet_Tests.release.xcconfig"; path = "Target Support Files/Pods-MeowSheet_Tests/Pods-MeowSheet_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		1AE5C649EE283FFF78CDB1C0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		1AE5C649EE283FFF78CDB1C0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		508D7040F1887D1F2316FE92 /* Pods-MeowSheet_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeowSheet_Tests.debug.xcconfig"; path = "Target Support Files/Pods-MeowSheet_Tests/Pods-MeowSheet_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* MeowSheet_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeowSheet_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -41,12 +42,13 @@
 		607FACE51AFB9204008FA782 /* MeowSheet_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeowSheet_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		8E1571605C8107BDA8DF5193 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		8E1571605C8107BDA8DF5193 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		C051DABAB33D2D838BDDE3A5 /* Pods-MeowSheet_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeowSheet_Example.debug.xcconfig"; path = "Target Support Files/Pods-MeowSheet_Example/Pods-MeowSheet_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		C4518272548E9AF5E5505CF3 /* MeowSheet.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = MeowSheet.podspec; path = ../MeowSheet.podspec; sourceTree = "<group>"; };
+		C4518272548E9AF5E5505CF3 /* MeowSheet.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MeowSheet.podspec; path = ../MeowSheet.podspec; sourceTree = "<group>"; };
 		D7AB2D9C1B93953590020146 /* Pods_MeowSheet_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MeowSheet_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA125D1A5F03ED5D8DB014F1 /* Pods-MeowSheet_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeowSheet_Example.release.xcconfig"; path = "Target Support Files/Pods-MeowSheet_Example/Pods-MeowSheet_Example.release.xcconfig"; sourceTree = "<group>"; };
 		EB943E830D04772E92EE6D52 /* Pods_MeowSheet_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MeowSheet_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2F721532D4664ED00A5E41B /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				F2F721532D4664ED00A5E41B /* ViewController2.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -147,7 +150,6 @@
 				508D7040F1887D1F2316FE92 /* Pods-MeowSheet_Tests.debug.xcconfig */,
 				101783B567D685A9DA5CC281 /* Pods-MeowSheet_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -213,10 +215,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = QNX4TMYK85;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = QNX4TMYK85;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -227,6 +231,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -292,10 +297,12 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-MeowSheet_Example/Pods-MeowSheet_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/MeowSheet/MeowSheet.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MeowSheet.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -333,6 +340,7 @@
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				F2F721542D4664F800A5E41B /* ViewController2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -478,13 +486,15 @@
 			baseConfigurationReference = C051DABAB33D2D838BDDE3A5 /* Pods-MeowSheet_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QNX4TMYK85;
 				INFOPLIST_FILE = MeowSheet/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -493,13 +503,15 @@
 			baseConfigurationReference = DA125D1A5F03ED5D8DB014F1 /* Pods-MeowSheet_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QNX4TMYK85;
 				INFOPLIST_FILE = MeowSheet/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -507,6 +519,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 508D7040F1887D1F2316FE92 /* Pods-MeowSheet_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = QNX4TMYK85;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -516,6 +529,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -529,11 +543,13 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 101783B567D685A9DA5CC281 /* Pods-MeowSheet_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = QNX4TMYK85;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
