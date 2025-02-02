@@ -5,11 +5,11 @@
 [![License](https://img.shields.io/cocoapods/l/MeowSheet.svg?style=flat)](https://cocoapods.org/pods/MeowSheet)
 [![Platform](https://img.shields.io/cocoapods/p/MeowSheet.svg?style=flat)](https://cocoapods.org/pods/MeowSheet)
 
-## Example
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
 ## Requirements
+
+● iOS 13+ 
+● Xcode 12+
+● Swift 5+
 
 ## Installation
 
@@ -17,7 +17,30 @@ MeowSheet is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'MeowSheet'
+pod 'MeowSheet', :git => "https://github.com/alan5899f/MeowSheet.git", :tag => '1.0.0'
+```
+
+## Example 
+
+Step1:
+-- You need inherit (PresentationDelegate) and set presentation hight px.
+
+```ruby 
+    extension ViewController: PresentationDelegate {
+        func presentationController(forPresented presented: UIViewController, presenting: UIViewController?, source: UIViewController) -> UIPresentationController? {
+            let presentationController = PresentationController(presentedViewController: presented, presenting: presenting)
+            presentationController.presentationType = .fixed(300)
+            return presentationController
+        }
+    }
+```
+
+Step2: 
+-- You should call presentMeowSheet for present viewController.
+
+```ruby 
+    let vc = ViewController2()
+    presentMeowSheet(controller: vc)
 ```
 
 ## Author
@@ -27,22 +50,3 @@ alan5899f, alan5899f@gmail.com
 ## License
 
 MeowSheet is available under the MIT license. See the LICENSE file for more info.
-
-## Example 
-
-Step1:
--- You need inherit (PresentationDelegate) and set presentation hight px.
-
-extension ViewController: PresentationDelegate {
-    func presentationController(forPresented presented: UIViewController, presenting: UIViewController?, source: UIViewController) -> UIPresentationController? {
-        let presentationController = PresentationController(presentedViewController: presented, presenting: presenting)
-        presentationController.presentationType = .fixed(300)
-        return presentationController
-    }
-}
-
-Step2: 
--- You should call presentMeowSheet for present viewController.
-
-let vc = ViewController2()
-presentMeowSheet(controller: vc)
